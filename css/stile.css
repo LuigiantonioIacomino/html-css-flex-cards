@@ -1,0 +1,60 @@
+/* RESET */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Fredoka', sans-serif;
+}
+
+
+/* tag semantici */
+header {
+background-color: orange;
+padding:4px;
+margin-bottom:70px;
+}
+
+main {
+    width:55%;
+    margin:0 auto;
+}
+
+
+
+
+/* tag singoli */
+img {
+    margin-right: 530px;
+}
+
+p {
+    margin-bottom:35px;
+}
+
+
+/* classi */
+
+.inlin{
+    display:inline;
+}
+
+.text-center {
+    text-align: center;
+    margin-bottom:30px;
+    color:rgb(229, 49, 112);
+}
+
+.flex-container {
+    display:flex;
+    gap:20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card {
+    width: 240px;
+    height:60px;
+    background-color: black;
+}
