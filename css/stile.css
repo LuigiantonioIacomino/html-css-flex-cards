@@ -18,7 +18,7 @@ margin-bottom:70px;
 }
 
 main {
-    width:55%;
+    width:60%;
     margin:0 auto;
 }
 
@@ -26,11 +26,8 @@ main {
 
 
 /* tag singoli */
-img {
-    margin-right: 530px;
-}
 
-p {
+.lorem-ipsum {
     margin-bottom:35px;
 }
 
@@ -39,9 +36,10 @@ p {
 
 .inlin{
     display:inline;
+    margin-left:550px;
 }
 
-.text-center {
+.titolo {
     text-align: center;
     margin-bottom:30px;
     color:rgb(229, 49, 112);
@@ -54,7 +52,52 @@ p {
     justify-content: center;
 }
 .card {
-    width: 240px;
-    height:60px;
+    width: 250px;
+    height:70px;
+    display:flex;
     background-color: black;
+}
+
+.text-white {
+    color:white;
+}
+
+.text-bold {
+    font-weight:bolder;
+}
+
+.font-size-13{
+    font-size:13px;
+}
+
+.underline {
+    text-decoration: none;
+}
+
+.text-blue {
+    color:rgb(11, 122, 197);
+}
+
+.text-center{
+    text-align:center;
+}
+
+
+.card-content{
+    margin-left:13px;
+}
+
+.margin-top {
+    margin-top: 5px;
+}
+
+.margin-bottom {
+    margin-bottom: 5px;
+}
+
+
+.fit-image {
+  width: 55px;
+  height: 70px;
+  object-fit: cover;
 }
